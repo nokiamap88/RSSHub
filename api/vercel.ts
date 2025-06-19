@@ -11,6 +11,5 @@ const { handle } = require('hono/vercel');
 const app = require('../lib/app');
 const logger = require('../lib/utils/logger');
 
-logger.info(`🎉 RSSHub is running! Cheers!`);
-
+logger.info('🚀 RSSHub is running! Cheers!');
 module.exports = handle(app);
