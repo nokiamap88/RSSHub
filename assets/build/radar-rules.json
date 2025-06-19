@@ -4,11 +4,5 @@
     "docs": "https://docs.rsshub.app/social-media.html#instagram",
     "source": ["/:id"],
     "target": "/instagram/user/:id"
-  },
-  "t.me": {
-    "title": "Telegram Channel",
-    "docs": "https://docs.rsshub.app/social-media.html#telegram",
-    "source": ["/:channel"],
-    "target": "/telegram/channel/:channel"
   }
 }
